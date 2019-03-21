@@ -32,7 +32,7 @@ In order to control camera power on/off and the shutter function, pins labled 1,
 
 Short pin 1&2 together to power toggle camera power. 
 
-Short pin 5 to pin 2, delay for a few milliseconds, then short 4 and 2. 
+Short pin 5 to pin 2, delay for a few milliseconds, then short 4 and 2 in order to capture an image. Both focus (pin 5) and shutter (pin 4) pins must be shorted to ground. 
 
-In order to capture an image, both shutter and focus pins must be shorted to ground. 2N2222 BJT transistors
+2N2222 BJT transistors
 were used as digital switches to protect the internal hardware of the camera.
