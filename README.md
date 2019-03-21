@@ -6,15 +6,26 @@ https://www.studio1productions.com/parts/sony-multiport-connector.htm
 
 ![Image of Multiport Connector](https://www.studio1productions.com/images/Multiport-Connector-1.jpg)
 
-In order to control camera power on/off and the shutter function, pins labled 1, 2, 4, & 5 are used.
+In order to control camera power on/off and the shutter function, pins labled 1, 2, 4, & 5 are used. The description of each pin is shown at the bottom of this post. 
 
-* Short pin 1&2 together to toggle camera power. 
+To control your camera with an Arduino, wire up the following schematic:
+ * 2N2222 BJT transistors are used as digital switches to protect the internal hardware of the camera. 
+  
+![Image of Schematic](https://i.imgur.com/Ikuon1v.jpg)
 
-* Short pin 5 to pin 2, delay for a few milliseconds, then short 4 and 2 in order to capture an image. 
+
+**Make the following connections:**
+1. Connect CAM_Shutter to pin 4 of the Multiport connector
+2. Connect CAM_Focus to pin 5 of the Multiport connector
+3. Connect CAM_Power to pin 2 of the Multiport connector
+4. Connect GND to pin 1 of the Multiport connector and the ground pin of your Arduino
+5. Connect GPIO_Power, GPIO_Focus, and GPIO_Shutter to digital pins of your Arduino. 
+
+
+* Drive GPIO_Power high to toggle camera power. 
+
+* Drive GPIO_Focus high, delay for a few milliseconds, then drive GPIO_Shutter high in order to capture an image. 
 * Both focus (pin 5) and shutter (pin 4) pins must be shorted to ground. 
-
-  * 2N2222 BJT transistors were used as digital switches to protect the internal hardware of the camera.
-
 
 Pin | Usage
 ----| -----
