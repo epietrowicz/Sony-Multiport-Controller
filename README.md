@@ -21,11 +21,14 @@ To control your camera with an Arduino, wire up the following schematic:
 4. Connect GND to pin 1 of the Multiport connector and the ground pin of your Arduino
 5. Connect GPIO_Power, GPIO_Focus, and GPIO_Shutter to digital pins of your Arduino. 
 
-
+**In Software:**
 * Drive GPIO_Power high to toggle camera power. 
 
 * Drive GPIO_Focus high, delay for a few milliseconds, then drive GPIO_Shutter high in order to capture an image. 
-* Both focus (pin 5) and shutter (pin 4) pins must be shorted to ground. 
+  * Both focus (pin 5) and shutter (pin 4) pins must be shorted to ground in order for the camera to take an image. 
+
+
+**PIN DESCRIPTIONS** from: https://www.studio1productions.com/parts/sony-multiport-connector.htm
 
 Pin | Usage
 ----| -----
