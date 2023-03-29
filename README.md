@@ -1,8 +1,7 @@
 # Sony-Multiport-Controller
 Arduino control of a Sony camera with Multiport support. 
 
-This implementation uses the broken out connector from this vendor:
-https://www.studio1productions.com/parts/sony-multiport-connector.html
+This implementation uses the broken out connector from this vendor: https://www.studio1productions.com/sony-multiport-connector.htm
 
 Alternate vendor: https://www.aliexpress.us/item/3256802869633950.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US
 
@@ -30,7 +29,7 @@ To control your camera with an Arduino, wire up the following schematic:
   * Both focus (pin 5) and shutter (pin 4) pins must be shorted to ground in order for the camera to take an image. 
 
 
-**PIN DESCRIPTIONS** from: https://www.studio1productions.com/parts/sony-multiport-connector.htm
+**PIN DESCRIPTIONS** from: https://www.studio1productions.com/sony-multiport-connector.htm
 
 Pin | Usage
 ----| -----
