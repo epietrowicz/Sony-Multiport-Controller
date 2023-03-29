@@ -6,7 +6,7 @@ https://www.studio1productions.com/parts/sony-multiport-connector.html
 
 Alternate vendor: https://www.aliexpress.us/item/3256802869633950.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US
 
-![Image of Multiport Connector](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aliexpress.com%2Fitem%2F1005003055948702.html&psig=AOvVaw0b7FN4SuUlcu6uJwv1ncn6&ust=1680191172354000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPD774G-gf4CFQAAAAAdAAAAABAG)
+![Image of Multiport Connector](https://ae01.alicdn.com/kf/H5f6b65644b0142fd870edd3969e3c9532/Multiport-Connector-Multi-Terminal-Connector-Male-Multiport-Connector-with-15-pins-and-Soldering-Tabs.jpg_.webp)
 
 In order to control camera power on/off and the shutter function, pins labled 1, 2, 4, & 5 are used. The description of each pin is shown at the bottom of this post. 
 
